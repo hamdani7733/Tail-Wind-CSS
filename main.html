@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind</title>
+    <style>
+   #social:hover{
+  transform: scale(1.05); 
+   }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">personal portolio</span>
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+                style="cursor: pointer;">
+                 <a class="mr-5 hover:text-gray-900"> Home</a>
+                <a class="mr-5 hover:text-gray-900"> Skills</a>
+                <a class="mr-5 hover:text-gray-900">Services</a>
+                <a class="mr-5 hover:text-gray-900">About</a>
+            </nav>
+            <button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-purple-200 rounded text-base mt-4 md:mt-0">
+                <a href="http://127.0.0.1:5500/contact.html"> Contact</a>
+
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src="pp.png" id="social">
+            </div>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hola!! Amigous
+                    <br class="hidden lg:inline-block">It's Harry Here
+                </h1>
+                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+                    plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken
+                    authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg"><a href="mailto:harry000@gmail.com">E-mail</a></button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style="border: 2px solid rgb(3, 65, 197); width: 50%; margin-left: 25%; border-radius: 10px; ">
+    <div style="height: auto; text-align: center;padding-top:20px;">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" >Services
+
+        </h1>
+
+    </div>
+<!-----services section -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3"id="social">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="google.jpg" alt="blog">
+                        <div class="p-6">
+
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Web-Designing</h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                jianbing microdosing tousled waistcoat.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" id="social">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="twitter.jpg" alt="blog">
+                        <div class="p-6">
+
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Social-Media Manager</h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                jianbing microdosing tousled waistcoat.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3"id="social">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="courses.jpg" alt="blog">
+                        <div class="p-6">
+
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Content-Writer</h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings
+                                jianbing microdosing tousled waistcoat.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                        <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Fell Free to Contact Me For OFF_PAGE SEO
+                            .</h1>
+                        <button
+                            class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg mt-10 sm:mt-0"><a href="http://127.0.0.1:5500/contact.html"> Contact</a></button>
+                    </div>
+                </div>
+            </section>
+            <hr style="border: 2px solid rgb(3, 65, 197); width: 50%; margin-left: 25%; border-radius: 10px; ">
+    <div style="height: auto; text-align: center;padding-top: 20px;">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900  ">
+             Skills
+
+        </h1>
+
+    </div>
+
+        </div>
+        
+
+    </section>
+    
+
+
+</body>
+
+</html>
